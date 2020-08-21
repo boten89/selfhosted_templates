@@ -118,6 +118,10 @@
       {
         "container": "/movies",
         "bind": "/portainer/Movies"
+      },
+      {
+        "container": "/portainer",
+        "bind": "/portainer"
       }
     ],
     "env": [
@@ -3410,6 +3414,10 @@
       },
       {
         "container": "/watch"
+      },
+      {
+        "container": "/portainer",
+        "bind": "/portainer"
       }
     ],
     "env": [
